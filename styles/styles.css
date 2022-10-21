@@ -3,3 +3,49 @@ body {
     box-sizing: border-box;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    padding: 1rem;
+}
+
+.navbar__link {
+    background-color: white;
+    color: black;
+    outline: none;
+    border-radius: 1rem;
+    border: 10px solid black;
+    padding: 0.5rem 0.5rem;
+}
+
+.navbar__link:hover {
+    background-color: lightgreen;
+}
+
+.navbar__link:active {
+    background-color: lightblue;
+}
+
+.navbar__link--home {
+    color:pink;
+}
+
+.navbar__link--colours {
+    color:purple;
+}
+
+.navbar__link--imagery {
+    color:green;
+}
+
+.navbar__link--typography {
+    color:white;
+}
+
+main {
+    display: flex;
+    background-color: yellow;
+    min-height: 100vh;
+}
