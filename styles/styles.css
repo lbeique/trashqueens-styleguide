@@ -10,14 +10,19 @@
   --colour-bg: #fffdf0;
   --colour-font: #1b1818;
 
-  --colour-navbar: #8394cf;
+  --colour-navbar: #5AB4AB;
   --colour-navbar-font: #FDFDFF;
 
-  --colour-button: #324691a1;
+  --colour-button: #DF5E4D;
+  --colour-button-icon: #f7c932;
   --colour-button-hover: #132f92a1;
   --colour-button-active: #082281a1;
 
   --colour-shadow: #1111114b;
+}
+
+body {
+  background-color: var(--colour-bg);
 }
 
 h1 {
@@ -42,32 +47,36 @@ body {
 }
 
 .navbar {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--colour-navbar);
-  padding: 1rem;
+  padding: 0.5rem;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 1px 3px 24px rgba(0, 0, 0, 0.25);
+}
+
+.navbar__text {
+  color: var(--colour-navbar-font);
 }
 
 .navbar__link {
-  background-color: var(--colour-button);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   color: var(--colour-navbar-font);
-  font-weight: bold;
-  letter-spacing: 0.05rem; 
   outline: none;
-  border-radius: 1rem;
-  border: 0 solid var(--colour-font);
-  padding: 0.5rem 1rem;
+  border-radius: 2rem;
   text-decoration: none;
-  box-shadow: 0px 3px 23px 2px var(--colour-shadow);
 }
 
-.navbar__link:hover {
-  background-color: var(--colour-button-hover);
+.navbar__link:hover iconify-icon {
+  color: var(--colour-button-icon);
 }
 
-.navbar__link:active {
-  background-color: var(--colour-button-active);
+.navbar__link:hover .navbar__text {
+  color: var(--colour-button-icon);
 }
 
 main {
@@ -75,7 +84,12 @@ main {
   padding: 2rem;
   flex-direction: column;
   align-items: center;
-  background-color: var(--colour-bg);
   min-height: 100vh;
   gap: 2rem;
+}
+
+iconify-icon {
+  font-size: 2rem;
+  color: var(--colour-navbar-font);
+  filter:drop-shadow(2px 2px 3px #4b4b4b52)
 }
