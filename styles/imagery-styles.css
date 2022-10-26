@@ -13,6 +13,12 @@ h1 {
   margin-bottom: 5%;
 }
 
+.navbar__link--imagery {
+  color: #5ab4ab;
+  background-color: #f5f9e9;
+  padding: 3%;
+}
+
 img {
   width: 15vw;
   height: 20vh;
@@ -28,6 +34,17 @@ img {
 
 .left__group {
   margin-right: 5%;
+}
+
+h1 {
+  color: #5ab4ab;
+  font-weight: 700;
+}
+
+.blue-bar {
+  width: 100vw;
+  height: 3vh;
+  background-color: var(--colour-turquoise);
 }
 
 p {

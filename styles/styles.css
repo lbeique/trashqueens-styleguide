@@ -51,12 +51,6 @@ body {
   font-weight: 700;
 }
 
-.navbar__link--imagery {
-  color: #5ab4ab;
-  background-color: #f5f9e9;
-  padding: 3%;
-}
-
 .home {
   background-color: var(--colour-darkblue);
 }
@@ -89,21 +83,10 @@ h4 {
   font-family: "Fuzzy Bubbles", cursive;
 }
 
-h1 {
-  color: #5ab4ab;
-  font-weight: 700;
-}
-
 p {
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-}
-
-.blue-bar {
-  width: 100vw;
-  height: 3vh;
-  background-color: var(--colour-turquoise);
 }
 
 @media (max-width: 768px) {
