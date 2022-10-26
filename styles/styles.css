@@ -1,3 +1,28 @@
+:root {
+  font-family: "Nunito", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --colour-bg: #f5f9e9;
+  --colour-darkblue: #273d4e;
+  --colour-turquoise: #5ab4ab;
+  --color-lightblue: #84a7f1;
+  --colour-red: #e05f4e;
+  --colour-yellow: #f7c932;
+
+  /* --colour-button-hover: #132f92a1;
+  --colour-button-active: #082281a1;
+  --colour-shadow: #1111114b; */
+}
+
+body {
+  background-color: var(--colour-bg);
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -19,7 +44,7 @@ body {
 .navbar__link {
   text-decoration: none;
   font-family: "Fuzzy Bubbles", cursive;
-  color: #f5f9e9;
+  color: var(--colour-bg);
 }
 
 .navbar__link:hover {
@@ -33,32 +58,34 @@ body {
 }
 
 .home {
-  background-color: #273d4e;
+  background-color: var(--colour-darkblue);
 }
 
 .colours {
-  background-color: #e05f4e;
+  background-color: var(--colour-red);
 }
 
 .typography {
-  background-color: #84a7f1;
+  background-color: var(--color-lightblue);
 }
 
 .imagery {
-  background-color: #5ab4ab;
+  background-color: var(--colour-turquoise);
 }
 
 .ref {
-  background-color: #f7c932;
+  background-color: var(--colour-yellow);
 }
 
 main {
-  background-color: #f5f9e9;
+  background-color: var(--colour-bg);
   min-height: 66vh;
 }
 
 h1,
-p {
+h2,
+h3,
+h4 {
   font-family: "Fuzzy Bubbles", cursive;
 }
 
@@ -68,13 +95,15 @@ h1 {
 }
 
 p {
+  font-family: "Nunito", sans-serif;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .blue-bar {
   width: 100vw;
   height: 3vh;
-  background-color: #5ab4ab;
+  background-color: var(--colour-turquoise);
 }
 
 @media (max-width: 768px) {
