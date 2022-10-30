@@ -3,3 +3,10 @@
     height: 3vh;
     background-color: var(--color-yellow);
 }
+main {
+    padding: 5%;
+}
+
+a{
+    text-decoration: none;
+}
