@@ -7,15 +7,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --colour-bg: #f5f9e9;
-  --colour-darkblue: #273d4e;
-  --colour-turquoise: #5ab4ab;
+  --color-bg: #f5f9e9;
+  --color-darkblue: #273d4e;
+  --color-turquoise: #5ab4ab;
   --color-lightblue: #84a7f1;
-  --colour-red: #e05f4e;
-  --colour-yellow: #f7c932;
+  --color-red: #e05f4e;
+  --color-yellow: #f7c932;
 
-  --colour-container: #f1ecca;
-  --colour-font: #1b1818;
+  --color-darkblue-hover: #1a2833;
+  --color-turquoise-hover: #468d86;
+  --color-lightblue-hover: #6882bb;
+  --color-red-hover: #ad4a3d;
+  --color-yellow-hover: #bd9a27;
+
+  --color-link-hover: #fbffef;
+  --color-container: #eee1d3;
+  --color-font: #1a2833;
 
   /* --colour-button-hover: #132f92a1;
   --colour-button-active: #082281a1;
@@ -23,7 +30,7 @@
 }
 
 body {
-  background-color: var(--colour-bg);
+  background-color: var(--color-bg);
 }
 
 body {
@@ -36,7 +43,7 @@ body {
 }
 
 .nav__item__container {
-  width: 20vw;
+  width: 20%;
   height: 7vh;
   display: flex;
   justify-content: center;
@@ -45,21 +52,29 @@ body {
 }
 
 .navbar__link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-family: "Fuzzy Bubbles", cursive;
-  color: var(--colour-bg);
+  color: var(--color-bg);
+  font-size: 1.25rem;
+}
+
+iconify-icon {
+  font-size: 1.5rem;
 }
 
 .navbar__link:hover {
-  font-weight: 700;
+  color: var(--color-link-hover);
+  /* font-weight: 700; */
 }
 
 .home {
-  background-color: var(--colour-darkblue);
+  background-color: var(--color-darkblue);
 }
 
 .colours {
-  background-color: var(--colour-red);
+  background-color: var(--color-red);
 }
 
 .typography {
@@ -67,15 +82,15 @@ body {
 }
 
 .imagery {
-  background-color: var(--colour-turquoise);
+  background-color: var(--color-turquoise);
 }
 
 .ref {
-  background-color: var(--colour-yellow);
+  background-color: var(--color-yellow);
 }
 
 main {
-  background-color: var(--colour-bg);
+  background-color: var(--color-bg);
   min-height: 66vh;
 }
 

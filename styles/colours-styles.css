@@ -4,12 +4,10 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-body {
-  font-family: Arial,serif;
-  margin:0;
-  padding:0;
+.red-bar {
+  height: 3vh;
+  background-color: var(--color-red);
 }
-
 
 section{
   margin: 50px 0;
