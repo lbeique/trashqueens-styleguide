@@ -1,43 +1,88 @@
-:root {
-    --colour-container: #f1ecca;
-    --colour-font: #1b1818;
-  }
 
-.grid1x1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+#nunito{
+  font-family: "Nunito", sans-serif;
 }
 
-.container {
-    color:var(--colour-font);
-    background-color: var(--colour-container);
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0px 3px 23px 2px var(--colour-shadow);
+main {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.font_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.font_container {
+  border: 2px solid var(--color-font);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 23px 2px var(--color-shadow);
+  width: 40%;
+}
+
+/* .navbar__link--typography {
+  color: var(--color-lightblue);
+  background-color: var(--color-bg);
+  padding: 3%;
+} */
+
+h1 {
+  color: var(--color-lightblue);
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.blue-bar {
+  height: 3vh;
+  background-color: var(--color-lightblue);
+}
+
+.font_container h1 {
+  color: var(--color-font);
 }
 
 .header-font {
-    font-family: 'Fuzzy Bubbles', cursive;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 
 .text-font {
-    font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .text-venti {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .text-grande {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .text-tall {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .text-small {
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
+
+@media (max-width: 900px) {
+  .font_group {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .font_container {
+    width: 80%;
+  }
+  h1 {
+    margin-left: 10%;
+  } 
+  
+}
+

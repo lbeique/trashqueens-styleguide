@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/colours-styles.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Nunito:wght@600&display=swap" rel="stylesheet">
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <title>Colours</title>
 </head>
+
 <body>
-    <nav class="navbar">
-        <a href="../index.html" class="navbar__link navbar__link--home">
-            <iconify-icon icon="icon-park-twotone:home"></iconify-icon>
-            <p class="navbar__text">Home</p>
-        </a>
-        <a href="./colours.html" class="navbar__link navbar__link--colours">
-            <iconify-icon icon="icon-park-twotone:platte"></iconify-icon>
-            <p class="navbar__text">Colours</p>
-        </a>
-        <a href="./typography.html" class="navbar__link navbar__link--typography">
-            <iconify-icon icon="icon-park-twotone:add-text-two"></iconify-icon>
-            <p class="navbar__text">Typography</p>
-        </a>
-        <a href="./imagery.html" class="navbar__link navbar__button--imagery">
-            <iconify-icon icon="icon-park-twotone:pic"></iconify-icon>
-            <p class="navbar__text">Imagery</p>
-        </a>      
-    </nav>
-    <main>
-        <h1>I LOVE COLOURS</h1>
-    </main>
+<nav class="navbar">
+    <div class="nav__item__container home"><a href="../index.html" class="navbar__link navbar__link--home">
+        <iconify-icon icon="icon-park-twotone:home"></iconify-icon>&nbsp;Home
+    </a>
+    </div>
+    <div class="nav__item__container colours"><a href="./colours.html" class="navbar__link navbar__link--colours">
+        <iconify-icon icon="icon-park-twotone:platte"></iconify-icon>&nbsp;Colours
+    </a></div>
+    <div class="nav__item__container typography"><a href="./typography.html"
+                                                    class="navbar__link navbar__link--typography">
+        <iconify-icon icon="icon-park-twotone:add-text-two"></iconify-icon>&nbsp;Typography
+    </a></div>
+    <div class="nav__item__container imagery"><a href="./imagery.html" class="navbar__link navbar__link--imagery">
+        <iconify-icon icon="icon-park-twotone:pic"></iconify-icon>&nbsp;Imagery
+    </a></div>
+    <div class="nav__item__container ref"><a href="./ref.html" class="navbar__link navbar__link--ref">
+        <iconify-icon icon="icon-park-twotone:notebook-and-pen"></iconify-icon>&nbsp;Ref
+    </a></div>
+</nav>
+<div class="red-bar"></div>
+<main>
+<!--    <h1 class="description">Colours</h1>-->
+
+    <section>
+        <div class="row">
+            <div class="column" >
+                <h1>Colour Palette</h1>
+                <p>These colours have been inspired from the real garbage bins colour palette. We have chosen high-saturated colours for the app to create a high contrast between UI elements.
+                    The advantage would be more noticeable and distinct elements which increase the user's interest and draw their attention.
+                </p>
+            </div>
+
+            <div class="column" >
+                <div class="image-container">
+                    <img  class="palette-img" src="../static/assets/palette2.png" alt="colour-palette">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--        <h2>Colour Palette</h2>-->
+
+
+
+
+    <section>
+        <div class="description">
+            <h1>Elements & Usage</h1>
+            <p>Here are some of the main components of the app. Colours are playing a significant role in making them stand out and creating a better user experience.</p>
+        </div>
+
+        <div class="row image-container">
+                    <div class="column ">
+                        <img class="element-img" src="../static/assets/frame1.png" alt="colour-palette">
+                    </div>
+                    <div class="column ">
+                        <img  class="element-img" src="../static/assets/frame2.png" alt="colour-palette">
+                    </div>
+                    <div class="column ">
+                        <img class="element-img" src="../static/assets/frame3.png" alt="colour-palette">
+                    </div>
+            </div>
+    </section>
+
+</main>
+<div class="red-bar"></div>
 </body>
+
 </html>

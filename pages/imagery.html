@@ -9,59 +9,74 @@
     <link rel="stylesheet" href="../styles/imagery-styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Nunito:wght@600&display=swap" rel="stylesheet">
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Nunito:wght@600&display=swap"
+        rel="stylesheet">
     <title>Imagery</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="../index.html" class="navbar__link navbar__link--home">
-            <iconify-icon icon="icon-park-twotone:home"></iconify-icon>
-            <p class="navbar__text">Home</p>
-        </a>
-        <a href="./colours.html" class="navbar__link navbar__link--colours">
-            <iconify-icon icon="icon-park-twotone:platte"></iconify-icon>
-            <p class="navbar__text">Colours</p>
-        </a>
-        <a href="./typography.html" class="navbar__link navbar__link--typography">
-            <iconify-icon icon="icon-park-twotone:add-text-two"></iconify-icon>
-            <p class="navbar__text">Typography</p>
-        </a>
-        <a href="./imagery.html" class="navbar__link navbar__button--imagery">
-            <iconify-icon icon="icon-park-twotone:pic"></iconify-icon>
-            <p class="navbar__text">Imagery</p>
-        </a>      
+        <div class="nav__item__container home"><a href="../index.html" class="navbar__link navbar__link--home">
+                <iconify-icon icon="icon-park-twotone:home"></iconify-icon>&nbsp;Home
+            </a>
+        </div>
+        <div class="nav__item__container colours"><a href="./colours.html" class="navbar__link navbar__link--colours">
+                <iconify-icon icon="icon-park-twotone:platte"></iconify-icon>&nbsp;Colours
+            </a></div>
+        <div class="nav__item__container typography"><a href="./typography.html"
+                class="navbar__link navbar__link--typography">
+                <iconify-icon icon="icon-park-twotone:add-text-two"></iconify-icon>&nbsp;Typography
+            </a></div>
+        <div class="nav__item__container imagery"><a href="./imagery.html" class="navbar__link navbar__link--imagery">
+                <iconify-icon icon="icon-park-twotone:pic"></iconify-icon>&nbsp;Imagery
+            </a></div>
+        <div class="nav__item__container ref"><a href="./ref.html" class="navbar__link navbar__link--ref">
+                <iconify-icon icon="icon-park-twotone:notebook-and-pen"></iconify-icon>&nbsp;Ref
+            </a></div>
     </nav>
+    <div class="turquoise-bar"></div>
     <main>
-        <h1>I LOVE IMAGERY</h1>
-        <div class="image-grid">
-            <img src="../static/assets/evgeny-karchevsky-k1tUxfs8JYY-unsplash.jpg" alt="trash">
-            <img src="../static/assets/gary-chan-YzSZN3qvHeo-unsplash.jpg" alt="trash">
-            <img src="../static/assets/john-cameron-7zocFMzvbpc-unsplash.jpg" alt="trash">
-            <img src="../static/assets/jon-moore-1PxGp8kkQyk-unsplash.jpg" alt="trash">
-            <img src="../static/assets/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg" alt="trash">
-            <img src="../static/assets/tim-mossholder-qq-8dpdlBsY-unsplash.jpg" alt="trash">
+        
+        <div class="left__group">
+            <h1>Photography</h1>
+            <div class="image__container">
+                <img src="../static/assets/evgeny-karchevsky-k1tUxfs8JYY-unsplash.jpg" alt="trash">
+                <img src="../static/assets/gary-chan-YzSZN3qvHeo-unsplash.jpg" alt="trash">
+                <img src="../static/assets/john-cameron-7zocFMzvbpc-unsplash.jpg" alt="trash">
+                <img src="../static/assets/jon-moore-1PxGp8kkQyk-unsplash.jpg" alt="trash">
+                <img src="../static/assets/naja-bertolt-jensen-2St3S36Gu7w-unsplash.jpg" alt="trash">
+                <img src="../static/assets/tim-mossholder-qq-8dpdlBsY-unsplash.jpg" alt="trash">
+            </div>
+            <p>Images should be minimalistic yet descriptive, either minimalistic with a main focal point or have a
+                pattern
+                like composition. They should be high quality wth natural lighting and inobtrusive to the eye. Subject
+                matter will consist of recycling, trash, and evironment related imagery, and will be used sparingly
+                within
+                the app.
+            </p>
         </div>
-        <p>Images should be minimalistic yet descriptive, either minimalistic with a main focal point or have a pattern
-            like composition. They should be high quality wth natural lighting and inobtrusive to the eye. Subject
-            matter will consist of recycling, trash, and evironment related imagery, and will be used sparingly within
-            the app.
-        </p>
-        <h1>I LOVE ICONS</h1>
-        <div class="icons">
-            <iconify-icon icon="icon-park-twotone:home"></iconify-icon>
-            <iconify-icon icon="icon-park-twotone:game-ps"></iconify-icon>
-            <iconify-icon icon="icon-park-twotone:game-three"></iconify-icon>
-            <iconify-icon icon="icon-park-twotone:book-open"></iconify-icon>
-            <iconify-icon icon="icon-park-twotone:natural-mode"></iconify-icon>
-            <iconify-icon icon="icon-park-twotone:apple-one"></iconify-icon>
-            <iconify-icon icon="icon-park-twotone:blossom"></iconify-icon>
+        <div class="right__group">
+            <h1>Icons</h1>
+            <p>Icons are from the IconPark TwoTone package from Iconify. They are two tone with a thicker outline to
+                maintin
+                visibility and minimalism. The softened feel also works well with our illustration style. The rounded
+                corners stay consistent with our overall design language, while providing a playfulness that is not
+                overwhelmingly childish. The large number of icons available in this package is useful for any
+                applications
+                needed.
+            </p>
+            <div>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:home" cl></iconify-icon>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:game-ps"></iconify-icon>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:game-three"></iconify-icon>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:book-open"></iconify-icon>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:natural-mode"></iconify-icon>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:apple-one"></iconify-icon>
+                <iconify-icon class="icon" height="auto" icon="icon-park-twotone:blossom"></iconify-icon>
+            </div>
         </div>
-        <p>Icons are from the IconPark TwoTone package from Iconify. They are two tone with a thicker outline to maintin
-            visibility and minimalism. The softened feel also works well with our illustration style. The rounded
-            corners stay consistent with our overall design language, while providing a playfulness that is not
-            overwhelmingly childish. The large number of icons available in this package is useful for any applications
-            needed.</p>
     </main>
+    <div class="turquoise-bar"></div>
 </body>
 
 </html>
