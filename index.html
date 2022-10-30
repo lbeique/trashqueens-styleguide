@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/landing-page-styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Nunito:wght@600&display=swap" rel="stylesheet">
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-    <title>Trash Queens</title>
+    <script xlink:href="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <title>Home</title>
 </head>
-
 <body>
-    <nav class="navbar">  
-            <a href="index.html" class="navbar__link navbar__link--home">
-                <iconify-icon icon="icon-park-twotone:home"></iconify-icon>
-                <p class="navbar__text">Home</p>
-            </a>
-            <a href="./pages/colours.html" class="navbar__link navbar__link--colours">
-                <iconify-icon icon="icon-park-twotone:platte"></iconify-icon>
-                <p class="navbar__text">Colours</p>
-            </a>
-            <a href="./pages/typography.html" class="navbar__link navbar__link--typography">
-                <iconify-icon icon="icon-park-twotone:add-text-two"></iconify-icon>
-                <p class="navbar__text">Typography</p>
-            </a>
-            <a href="./pages/imagery.html" class="navbar__link navbar__button--imagery">
-                <iconify-icon icon="icon-park-twotone:pic"></iconify-icon>
-                <p class="navbar__text">Imagery</p>
-            </a>        
-    </nav>
-    <main>
-        <h1>I LOVE TRASH</h1>
-    </main>
-
+    
+        <div class="landing-page__container">
+            <div class="landing-page__container--left">
+                <nav class="lp-navbar">
+                    <a href="../colours.html" class="lp-navbar__link lp-navbar__link--colours">
+                        <div class="lp-navbar__svg-container">
+                            <svg class="svg--overflow">
+                                <image class="asset__recycle-bin" xlink:href="./static/assets/SVG/purple-bin.svg" alt="purple-recycle-bin">
+                            </svg>
+                        </div>
+                        <p class="lp-navbar__text">Colours</p>
+                    </a>
+                    <a href="./typography.html" class="lp-navbar__link lp-navbar__link--typography">
+                        <div class="lp-navbar__svg-container">
+                            <svg class="svg--overflow">
+                                <image class="asset__recycle-bin" xlink:href="./static/assets/SVG/blue-bin.svg" alt="blue-recycle-bin">
+                            </svg>
+                        </div>
+                        <p class="lp-navbar__text">Typography</p>
+                    </a>
+                    <a href="./imagery.html" class="lp-navbar__link lp-navbar__link--imagery">
+                        <div class="lp-navbar__svg-container">
+                            <svg class="svg--overflow">
+                                <image class="asset__recycle-bin" xlink:href="./static/assets/SVG/yellow-bin.svg" alt="yellow-recycle-bin">
+                            </svg>
+                        </div>
+                        <p class="lp-navbar__text">Imagery</p>
+                    </a>
+                    <a href="./references.html" class="lp-navbar__link lp-navbar__button--references">
+                        <div class="lp-navbar__svg-container">
+                            <svg class="svg--overflow">
+                                <image class="asset__recycle-bin" xlink:href="./static/assets/SVG/green-bin.svg" alt="green-recycle-bin">
+                            </svg>
+                        </div>
+                        <p class="lp-navbar__text">References</p>
+                    </a>      
+                </nav>
+            </div>
+            <div class="landing-page__container--right">
+                <div class="lp-headline__container">
+                    <h2 class="lp__sub-header">Learn to recycle with</h2>
+                    <h1 class="lp__main-header">Trash Queens</h1>
+                </div> 
+                <div class="lp__svg-container">
+                    <svg >
+                        <image class="asset__trash-mountain" xlink:href="./static/assets/SVG/trash-mountain.svg" alt="trash-mountain">
+                    </svg>
+                </div>
+            </div>
+        </div>
+   
 </body>
-
 </html>

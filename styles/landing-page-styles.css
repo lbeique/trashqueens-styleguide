@@ -1,0 +1,118 @@
+:root {
+    --colour-lp-button: #273D4E;
+    --colour-lp-button-text:  #fffdf0;
+
+    --colour-sub-header: #F7C932;
+}
+
+.landing-page__container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.landing-page__container--left{
+    width: 30vw;
+}
+
+.landing-page__container--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 70vw;
+}
+
+.lp-headline__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.lp__main-header{
+   font-size: 5rem;
+   color: var(--colour-lp-button);
+   text-align: center;
+   margin: 0;
+}
+
+.lp__sub-header{
+  color: var(--colour-sub-header);
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.lp-navbar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%
+}
+
+.lp-navbar__link{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-right: 1rem;
+    background-color: var(--colour-lp-button);
+    width: 20rem;
+    padding-left: 4rem;
+    height: 5rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    box-shadow: 0 5px 10px rgb(66, 66, 66); 
+    left: -3rem;
+    transition: transform .2s;
+}
+
+.lp-navbar__link:hover{
+    transform: translateX(1rem)
+}
+
+.lp-navbar__svg-container{
+    position: absolute;
+}
+
+.lp-navbar__text{
+   color: var(--colour-lp-button-text);
+   font-family: 'Fuzzy Bubbles', cursive;
+   font-size: 1.25rem;
+   margin-left: 8rem;
+}
+
+.svg--overflow{
+    overflow: visible;
+}
+
+[class^="asset"]{
+    filter: drop-shadow(0 5px 5px rgb(66, 66, 66));
+    width: 100%;
+    height: 100%;
+}
+
+.asset__recycle-bin{
+    width: 30rem;
+    height: 10rem;
+    transform: rotateZ(5deg) translateX(-12rem) translateY(-1rem);
+}
+
+.lp__svg-container, .lp__svg-container > svg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.asset__trash-mountain{
+    width: 100%;
+    height: 30rem;
+}
+
+
+
+
