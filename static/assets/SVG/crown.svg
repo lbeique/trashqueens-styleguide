@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.87 31.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+
+      .cls-2 {
+        fill: #ffe35a;
+      }
+
+      .cls-3 {
+        fill: #824c9e;
+      }
+
+      .cls-4 {
+        fill: #b3a241;
+      }
+    </style>
+  </defs>
+  <g id="green_bin" data-name="green bin">
+    <g id="_Group_Crown" data-name="&amp;lt;Group&amp;gt; Crown">
+      <polygon class="cls-4" points="8.57 7.37 14.82 0 21.3 5.57 17.25 11.09 8.57 7.37"/>
+      <polygon class="cls-2" points="7.03 31.26 47.24 31.26 51.87 3.7 34.5 11.09 25.39 0 17.25 11.09 0 3.7 7.03 31.26"/>
+      <polygon class="cls-4" points="34.5 11.09 29.95 5.55 36.48 0 43.71 7.17 34.5 11.09"/>
+      <polygon class="cls-1" points="5.98 27.12 47.93 27.12 47.24 31.26 7.03 31.26 5.98 27.12"/>
+      <polygon class="cls-3" points="21.71 18.14 25.93 12.4 29.95 18.14 25.83 23.55 21.71 18.14"/>
+    </g>
+  </g>
+</svg>
