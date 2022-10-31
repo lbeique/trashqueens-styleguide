@@ -70,7 +70,9 @@ p {
 
 .variants-list__container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-areas:"a b c"
+                      "d e .";
   place-items: center;
 }
 

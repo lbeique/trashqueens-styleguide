@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136.31 185.62">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-2, .cls-3, .cls-6 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-2, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        font-family: FuzzyBubbles-Bold, 'Fuzzy Bubbles';
+        font-size: 26px;
+      }
+    </style>
+  </defs>
+  <g id="Logo">
+    <g id="logo_idea1">
+      <g id="_Group_body" data-name="&amp;lt;Group&amp;gt;body">
+        <path class="cls-2" d="M118.74,84.22c.19,0,.37,.02,.55,.03l1.06-12.79H15.49l1.52,12.75c33.91-.02,67.82-.51,101.73,0Z"/>
+        <path class="cls-5" d="M1,56.5v8.49c0,3.58,2.15,6.48,4.79,6.48h124.72c2.65,0,4.79-2.9,4.79-6.48v-8.49c0-3.58-2.15-6.48-4.79-6.48H5.79c-2.65,0-4.79,2.9-4.79,6.48Z"/>
+        <path class="cls-2" d="M10.77,48.49l3.56-14.66c.14-.56,.63-.95,1.21-.95H118.03c.52,0,.98,.32,1.16,.81l5.47,14.66c.3,.81-.3,1.68-1.16,1.68H11.98c-.8,0-1.4-.75-1.21-1.53Z"/>
+      </g>
+      <g id="_Group_Crown" data-name="&amp;lt;Group&amp;gt; Crown">
+        <polygon class="cls-5" points="28.84 9 35.09 1.63 41.57 7.2 37.52 12.72 28.84 9"/>
+        <polygon class="cls-2" points="27.3 32.89 67.51 32.89 72.14 5.33 54.78 12.72 45.66 1.63 37.52 12.72 20.27 5.33 27.3 32.89"/>
+        <polygon class="cls-5" points="54.78 12.72 50.22 7.18 56.75 1.63 63.98 8.8 54.78 12.72"/>
+        <polygon class="cls-5" points="26.25 28.75 68.2 28.75 67.51 32.89 27.3 32.89 26.25 28.75"/>
+        <polygon class="cls-5" points="41.98 19.77 46.21 14.03 50.22 19.77 46.1 25.18 41.98 19.77"/>
+      </g>
+      <g id="_Group_face" data-name="&amp;lt;Group&amp;gt;face">
+        <polygon class="cls-1" points="62.87 60.75 72.14 60.75 68.16 67.74 62.87 60.75"/>
+        <g id="_Group_eye" data-name="&amp;lt;Group&amp;gt;eye">
+          <circle class="cls-5" cx="37.52" cy="52.17" r="17.25"/>
+          <circle class="cls-2" cx="39.5" cy="48.44" r="6.15"/>
+          <path class="cls-6" d="M37.52,34.92c15.37-6.09,11.88-9.97,11.88-9.97"/>
+          <path class="cls-6" d="M38.07,34.35c16.44,1.75,15.15-3.3,15.15-3.3"/>
+        </g>
+        <g id="_Group_eye-2" data-name="&amp;lt;Group&amp;gt;eye">
+          <circle class="cls-5" cx="98.16" cy="52.17" r="17.25"/>
+          <circle class="cls-2" cx="100.77" cy="48.44" r="6.15"/>
+          <path class="cls-6" d="M98.16,34.92c15.37-6.09,11.88-9.97,11.88-9.97"/>
+          <path class="cls-6" d="M98.7,34.35c16.44,1.75,15.15-3.3,15.15-3.3"/>
+        </g>
+      </g>
+      <text class="cls-4" transform="translate(17.46 106.57)"><tspan x="0" y="0" xml:space="preserve">TR   SH</tspan><tspan x="-.35" y="31.2">QUEENS</tspan></text>
+      <g id="_Group_body-2" data-name="&amp;lt;Group&amp;gt;body">
+        <path class="cls-2" d="M114.5,130.23v-.06c-1,.02-2,.04-3.01,.06h3.01Z"/>
+        <path class="cls-2" d="M23.64,144.24l4.82,40.38H110.01l3.36-40.74c-29.91,.32-59.82,.36-89.73,.36Z"/>
+      </g>
+      <g id="_Group_recycle_symbol" data-name="&amp;lt;Group&amp;gt;recycle symbol">
+        <g id="_Group_recycle_arrow" data-name="&amp;lt;Group&amp;gt;recycle arrow">
+          <path class="cls-3" d="M59.75,93.31s2.88-5.35,4.91-5.12,7.91,0,7.91,0c0,0,1.56,.35,3.12,3.02l2.52-1.23-3.12,5.35h-7.43l2.76-1.23-1.81-2.34-3.16,4.6-5.7-3.04Z"/>
+          <path class="cls-3" d="M68.61,91.75s-2.04-3.62-3.95-3.56"/>
+        </g>
+        <g id="_Group_recycle_arrow-2" data-name="&amp;lt;Group&amp;gt;recycle arrow">
+          <path class="cls-3" d="M78.94,95.09s3.36,5.1,2.07,6.59-4.18,6.24-4.18,6.24c0,0-1.14,1.05-4.4,.86l-.21,2.63-3.23-5.29,3.93-5.86-.34,2.82,3.1-.18-2.53-4.93,5.79-2.89Z"/>
+          <path class="cls-3" d="M75.67,102.91s4.39,.31,5.34-1.23"/>
+        </g>
+        <g id="_Group_recycle_arrow-3" data-name="&amp;lt;Group&amp;gt;recycle arrow">
+          <path class="cls-3" d="M67.87,109.48s-6.41,.54-7.27-1.19-4.17-6.25-4.17-6.25c0,0-.5-1.41,1.12-4.05l-2.45-1.34,6.53-.35,3.91,5.87-2.57-1.53-1.19,2.66,5.87,.07,.22,6.11Z"/>
+          <path class="cls-3" d="M61.78,103.3s-2.24,3.52-1.18,4.99"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
