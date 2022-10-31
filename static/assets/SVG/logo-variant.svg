@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.31 145.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8991d;
+      }
+
+      .cls-2 {
+        fill: #ffe35a;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ed1c24;
+      }
+
+      .cls-5 {
+        fill: #824c9e;
+      }
+
+      .cls-6 {
+        fill: #3363ac;
+      }
+
+      .cls-7 {
+        fill: #b3a241;
+      }
+
+      .cls-8 {
+        fill: #4974ba;
+      }
+
+      .cls-9, .cls-10, .cls-11 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-9, .cls-11 {
+        stroke-width: 2px;
+      }
+
+      .cls-9, .cls-12 {
+        fill: #231f20;
+      }
+
+      .cls-10 {
+        fill: #fff5e9;
+      }
+
+      .cls-11 {
+        fill: none;
+      }
+
+      .cls-12 {
+        font-family: FuzzyBubbles-Bold, 'Fuzzy Bubbles';
+        font-size: 26px;
+      }
+    </style>
+  </defs>
+  <g id="Logo">
+    <g id="logo_idea1">
+      <g id="_Group_body" data-name="&amp;lt;Group&amp;gt;body">
+        <path class="cls-6" d="M117.74,82.59c.19,0,.37,.02,.55,.03l1.06-12.79H14.49l1.52,12.75c33.91-.02,67.82-.51,101.73,0Z"/>
+        <path class="cls-8" d="M0,54.87v8.49c0,3.58,2.15,6.48,4.79,6.48h124.72c2.65,0,4.79-2.9,4.79-6.48v-8.49c0-3.58-2.15-6.48-4.79-6.48H4.79c-2.65,0-4.79,2.9-4.79,6.48Z"/>
+        <path class="cls-6" d="M9.77,46.86l3.56-14.66c.14-.56,.63-.95,1.21-.95H117.03c.52,0,.98,.32,1.16,.81l5.47,14.66c.3,.81-.3,1.68-1.16,1.68H10.98c-.8,0-1.4-.75-1.21-1.53Z"/>
+      </g>
+      <g id="_Group_Crown" data-name="&amp;lt;Group&amp;gt; Crown">
+        <polygon class="cls-7" points="27.84 7.37 34.09 0 40.57 5.57 36.52 11.09 27.84 7.37"/>
+        <polygon class="cls-2" points="26.3 31.26 66.51 31.26 71.14 3.7 53.78 11.09 44.66 0 36.52 11.09 19.27 3.7 26.3 31.26"/>
+        <polygon class="cls-7" points="53.78 11.09 49.22 5.55 55.75 0 62.98 7.17 53.78 11.09"/>
+        <polygon class="cls-1" points="25.25 27.12 67.2 27.12 66.51 31.26 26.3 31.26 25.25 27.12"/>
+        <polygon class="cls-5" points="40.98 18.14 45.21 12.4 49.22 18.14 45.1 23.55 40.98 18.14"/>
+      </g>
+      <g id="_Group_face" data-name="&amp;lt;Group&amp;gt;face">
+        <polygon class="cls-4" points="61.87 59.12 71.14 59.12 67.16 66.11 61.87 59.12"/>
+        <g id="_Group_eye" data-name="&amp;lt;Group&amp;gt;eye">
+          <circle class="cls-3" cx="36.52" cy="50.54" r="17.25"/>
+          <circle class="cls-9" cx="38.5" cy="46.81" r="6.15"/>
+          <path class="cls-11" d="M36.52,33.29c15.37-6.09,11.88-9.97,11.88-9.97"/>
+          <path class="cls-11" d="M37.07,32.72c16.44,1.75,15.15-3.3,15.15-3.3"/>
+        </g>
+        <g id="_Group_eye-2" data-name="&amp;lt;Group&amp;gt;eye">
+          <circle class="cls-3" cx="97.16" cy="50.54" r="17.25"/>
+          <circle class="cls-9" cx="99.77" cy="46.81" r="6.15"/>
+          <path class="cls-11" d="M97.16,33.29c15.37-6.09,11.88-9.97,11.88-9.97"/>
+          <path class="cls-11" d="M97.7,32.72c16.44,1.75,15.15-3.3,15.15-3.3"/>
+        </g>
+      </g>
+      <g>
+        <text class="cls-12" transform="translate(16.46 104.94)"><tspan x="0" y="0" xml:space="preserve">TR   SH</tspan><tspan x="-.35" y="31.2">QUEENS</tspan></text>
+        <g id="_Group_recycle_symbol" data-name="&amp;lt;Group&amp;gt;recycle symbol">
+          <g id="_Group_recycle_arrow" data-name="&amp;lt;Group&amp;gt;recycle arrow">
+            <path class="cls-10" d="M58.75,91.68s2.88-5.35,4.91-5.12,7.91,0,7.91,0c0,0,1.56,.35,3.12,3.02l2.52-1.23-3.12,5.35h-7.43l2.76-1.23-1.81-2.34-3.16,4.6-5.7-3.04Z"/>
+            <path class="cls-10" d="M67.61,90.12s-2.04-3.62-3.95-3.56"/>
+          </g>
+          <g id="_Group_recycle_arrow-2" data-name="&amp;lt;Group&amp;gt;recycle arrow">
+            <path class="cls-10" d="M77.94,93.46s3.36,5.1,2.07,6.59-4.18,6.24-4.18,6.24c0,0-1.14,1.05-4.4,.86l-.21,2.63-3.23-5.29,3.93-5.86-.34,2.82,3.1-.18-2.53-4.93,5.79-2.89Z"/>
+            <path class="cls-10" d="M74.67,101.28s4.39,.31,5.34-1.23"/>
+          </g>
+          <g id="_Group_recycle_arrow-3" data-name="&amp;lt;Group&amp;gt;recycle arrow">
+            <path class="cls-10" d="M66.87,107.85s-6.41,.54-7.27-1.19-4.17-6.25-4.17-6.25c0,0-.5-1.41,1.12-4.05l-2.45-1.34,6.53-.35,3.91,5.87-2.57-1.53-1.19,2.66,5.87,.07,.22,6.11Z"/>
+            <path class="cls-10" d="M60.78,101.67s-2.24,3.52-1.18,4.99"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
